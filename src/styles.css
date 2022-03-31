@@ -100,10 +100,14 @@
             flex 
             flex-row 
             mx-auto 
-            h-auto 
+            lg:h-5/6
+            md:h-96
+            xs:h-96
+            xss:h-5/6
             mb-8 
             mt-10
             bg-bgBar 
+            lg:bg-no-repeat
             xs:flex-col
             bg-center
             bg-contain
@@ -316,7 +320,7 @@
             bg-gray-primary 
             h-auto 
             mt-10
-            xs:mt-96
+            xs:mt-48
         ;
     }
 
