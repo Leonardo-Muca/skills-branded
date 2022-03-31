@@ -296,17 +296,12 @@
 
     .img-carrousel{
         @apply
-            lg:h-auto
-            lg:w-11/12
-            lg:mx-auto
-            md:h-40
-            md:w-40
+        flex
+            h-auto
+            w-11/12
+            mx-auto
             md:mx-auto
-            xs:h-32
-            xs:w-32
             xs:mx-auto
-            xss:h-20
-            xss:w-20
             xss:mx-auto
             rounded
         ;
