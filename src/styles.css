@@ -107,10 +107,10 @@
             mb-8 
             mt-10
             bg-bgBar 
-            lg:bg-no-repeat
+            bg-no-repeat
+            bg-cover
             xs:flex-col
             bg-center
-            bg-contain
         ;
     }
 
