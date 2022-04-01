@@ -215,7 +215,6 @@
 
     .header{
        @apply
-            container
             mx-auto
             h-32
             text-gray-600
