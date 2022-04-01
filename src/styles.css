@@ -54,6 +54,10 @@
         font-style: normal;
     }
 
+    .play{
+        font-family:"Playfair";
+    }
+
     .symbol{
         font-family: "WebSymbolsRegular";
     }
@@ -318,7 +322,7 @@
         @apply
             symbol
             block
-            text-sm
+            font-extralight
         ;
     }
 
