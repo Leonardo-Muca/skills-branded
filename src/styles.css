@@ -80,6 +80,30 @@
 }
 
 @layer components{
+
+    .principal-container{
+        @apply
+            flex 
+            mx-auto 
+            relative
+        ;
+    }
+
+    .carousell-container-principal{
+        @apply
+            w-full 
+            p-5 
+            overflow-hidden
+        ;
+    }
+
+    .carousell-container-img{
+        @apply
+            flex 
+            flex-nowrap
+        ;
+    }
+
     .button{
         @apply
         bg-black 
