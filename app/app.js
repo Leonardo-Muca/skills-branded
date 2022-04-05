@@ -6,6 +6,21 @@ const carrousel = [
     'https://cdn-yotpo-images-production.yotpo.com/instagram/36/18187322332167236/low_resolution.jpg',
     'https://cdn-yotpo-images-production.yotpo.com/instagram/55/17913097703471755/low_resolution.jpg',
     'https://cdn-yotpo-images-production.yotpo.com/instagram/75/17922605567055775/low_resolution.jpg',
+    'https://cdn-yotpo-images-production.yotpo.com/instagram/58/17921215178145058/low_resolution.jpg',
+    'https://cdn-yotpo-images-production.yotpo.com/instagram/68/18286550008016068/low_resolution.jpg',
+    'https://cdn-yotpo-images-production.yotpo.com/instagram/36/18187322332167236/low_resolution.jpg',
+    'https://cdn-yotpo-images-production.yotpo.com/instagram/55/17913097703471755/low_resolution.jpg',
+    'https://cdn-yotpo-images-production.yotpo.com/instagram/75/17922605567055775/low_resolution.jpg',
+    'https://cdn-yotpo-images-production.yotpo.com/instagram/58/17921215178145058/low_resolution.jpg',
+    'https://cdn-yotpo-images-production.yotpo.com/instagram/68/18286550008016068/low_resolution.jpg',
+    'https://cdn-yotpo-images-production.yotpo.com/instagram/36/18187322332167236/low_resolution.jpg',
+    'https://cdn-yotpo-images-production.yotpo.com/instagram/55/17913097703471755/low_resolution.jpg',
+    'https://cdn-yotpo-images-production.yotpo.com/instagram/75/17922605567055775/low_resolution.jpg',
+    'https://cdn-yotpo-images-production.yotpo.com/instagram/58/17921215178145058/low_resolution.jpg',
+    'https://cdn-yotpo-images-production.yotpo.com/instagram/68/18286550008016068/low_resolution.jpg',
+    'https://cdn-yotpo-images-production.yotpo.com/instagram/36/18187322332167236/low_resolution.jpg',
+    'https://cdn-yotpo-images-production.yotpo.com/instagram/55/17913097703471755/low_resolution.jpg',
+    'https://cdn-yotpo-images-production.yotpo.com/instagram/75/17922605567055775/low_resolution.jpg',
 ];
 
 const contactsMenu = [
@@ -84,7 +99,7 @@ function renderCarrouselMenuItems() {
         const aItem = document.createElement('a');
         const imgItem = document.createElement('img');
         imgItem.setAttribute('src', item)
-        imgItem.classList.add('img-carrousel')
+        imgItem.classList.add('slide')
         aItem.setAttribute('href', '#');
 
         aItem.appendChild(imgItem);
