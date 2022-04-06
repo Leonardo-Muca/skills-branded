@@ -10,6 +10,9 @@ module.exports = {
                 'familyImage': "url('../img/img_2.webp')",
                 'bgBar': "url('../img/background.webp')",
             }),
+            zIndex: {
+                '2': '2',
+            },
             screens: {
                 'xs': { 'max': '768px' },
                 'xss': { 'max': '655px' },
@@ -17,12 +20,15 @@ module.exports = {
             },
             spacing: {
                 'w-custom': '94.7%',
-                'w-list': '73%'
+                'w-list': '73%',
             },
             height: {
                 '160': '40rem',
                 '140': '35rem',
                 'bg-img': '25.6rem',
+            },
+            width: {
+                '1140' : '71.25rem'
             },
             margin: {
                 '175': '55rem',

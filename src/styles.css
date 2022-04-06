@@ -484,17 +484,17 @@
             m-auto
             overflow-hidden
             relative
+            w-1140
         ;
-        width: 1140px;
     }
     
     .slider::before, .slider::after {
-        background: linear-gradient(to right, #fff 0%, rgba(255, 255, 255, 0) 100%);
-        z-index: 2;
         @apply
             h-full
             relative
             w-28
+            bg-gradient-to-r from-white to-black
+            z-2
         ;
     }
     
@@ -506,8 +506,10 @@
     }
     
     .slider::before {
-        left: 0;
-        top: 0;
+        @apply
+            left-0
+            top-0
+        ;
     }
     
     .slider .slide-track {
