@@ -133,7 +133,7 @@
             xs:h-96
             xss:h-5/6
             mb-8 
-            mt-10
+            mt-32
             bg-bgBar 
             bg-no-repeat
             bg-cover
@@ -480,11 +480,11 @@
     .slider {
         @apply
             bg-white
-            h-52
+            h-72
             m-auto
             overflow-hidden
             relative
-            w-1140
+            w-full
         ;
     }
     
@@ -525,7 +525,7 @@
     
     .slider .slide {
        @apply
-            h-64
+            h-72
             w-64
        ;
     }
