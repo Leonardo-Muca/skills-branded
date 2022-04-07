@@ -28,7 +28,7 @@ module.exports = {
                 'bg-img': '25.6rem',
             },
             width: {
-                '1140' : '71.25rem'
+                '1140': '71.25rem'
             },
             margin: {
                 '175': '55rem',

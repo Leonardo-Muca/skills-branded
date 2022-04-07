@@ -77,7 +77,9 @@ const aboutMenu = document.getElementById('aboutMenu');
 const accountMenu = document.getElementById('accountMenu');
 const serviceMenu = document.getElementById('serviceMenu');
 const menuIcon = document.getElementById('menuIcon');
-let i = 0
+const firtsHeader = document.getElementById('first-header');
+const secondHeader = document.getElementById('second-header');
+const nav_firtsHeader = document.getElementById('nav-firtsHeader');
 
 // All lists
 function renderMenuItems() {
@@ -90,6 +92,23 @@ function renderMenuItems() {
 
         liItem.appendChild(aItem);
         menuItem.appendChild(liItem);
+        window.onscroll = function () {
+            // Obtenemos la posicion del scroll en pantall
+            var scroll = document.documentElement.scrollTop || document.body.scrollTop;
+            console.log(scroll);
+        
+            // Realizamos alguna accion cuando el scroll este entre la posicion 300 y 400
+            if (scroll === 0) {
+                firtsHeader.classList.remove('hidden');
+                nav_firtsHeader.classList.remove('hidden');
+                secondHeader.classList.add('hidden');
+            }
+            if (scroll > 62) {
+                firtsHeader.classList.add('hidden');
+                nav_firtsHeader.classList.add('hidden');
+                secondHeader.classList.remove('hidden');
+            }
+        }
     })
 }
 
@@ -181,6 +200,8 @@ function renderIconMenuItems() {
         menuIcon.appendChild(liItem);
     })
 }
+
+
 
 // render Menu's
 renderContactMenuItem();
